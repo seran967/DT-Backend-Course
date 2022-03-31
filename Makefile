@@ -1,3 +1,16 @@
+up:
+	docker-compose up
+
+down:
+	docker-compose down
+
+web: makemigrations migrate web
+
+bot: makemigrations migrate bot
+
+run:
+	python src/manage.py runserver
+
 migrate:
 	python src/manage.py migrate $(if $m, api $m,)
 
