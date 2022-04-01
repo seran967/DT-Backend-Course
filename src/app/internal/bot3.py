@@ -39,7 +39,7 @@ def on_message (update, context):
         chat = update.effective_chat
         context.bot.send_message(chat_id=chat.id, text='Ваш телефон добавлен в базу данных')
 
-updater = Updater(token='5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc', use_context=True)
+updater = Updater(token='', use_context=True)
 
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler("start", on_start))

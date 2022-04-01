@@ -3,7 +3,7 @@
 #updater = Updater(token='5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc', use_context=True)
 import telebot
 
-bot = telebot.TeleBot("5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc")
+bot = telebot.TeleBot("")
 
 # Подключаем базу
 import sqlite3

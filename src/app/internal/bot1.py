@@ -7,7 +7,7 @@ from django.conf import settings
 from telegram import Update, ForceReply
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
-updater = Updater(token='5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc', use_context=True)
+updater = Updater(token='', use_context=True)
 from app.models import For_Bot
 
 p, _ = For_Bot.objects.get_or_create(

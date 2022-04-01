@@ -1,6 +1,5 @@
 # import sqlite3
 # from telegram.ext import Updater
-# updater = Updater(token='5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc', use_context=True)
 
 # !/usr/bin/env python
 # pylint: disable=C0116,W0613
@@ -57,7 +56,7 @@ def main() -> None:
 # Запустить бота
 # Создайте средство обновления и передайте ему токен вашего бота.
 
-    updater = Updater('5292815147:AAHtRZbacBuVDCP8Y2S-lwhXgX7ugyKHRYc')
+    updater = Updater('')
 
 # Заставить диспетчер зарегистрировать обработчики
     dispatcher = updater.dispatcher
